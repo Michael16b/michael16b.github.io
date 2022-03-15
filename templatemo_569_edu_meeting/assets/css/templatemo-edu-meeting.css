@@ -686,7 +686,6 @@ banner
   position: relative;
   max-height: 100%;
   overflow: hidden;
-  margin-bottom: -7px;
 }
 
 #bg-video {
@@ -704,7 +703,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(31,39,43,0.75);
+    background-color: rgba(31,39,43,0.55);
     top: 0;
     left: 0;
     bottom: 0;
@@ -888,7 +887,8 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/meetings-bg.jpg);
+  background-image: url(../images/nantes-spirale.jpg);
+  opacity: 95%;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -946,6 +946,7 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .meeting-item .thumb {
@@ -973,7 +974,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content {
-  background-color: #fff;
+  background-color:#f0f7ff;
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
