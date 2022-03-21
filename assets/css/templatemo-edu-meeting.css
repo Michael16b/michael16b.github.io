@@ -995,7 +995,18 @@ section.upcoming-meetings .categories .main-button-red a {
   border-top-left-radius: 20px;
 }
 
-#bigimg {
+#musee {
+  height: 14.8em;
+}
+
+#rando {
+  height: 14.8em;
+}
+#restaurants {
+  height: 17em;
+}
+
+#visite {
   height: 14.8em;
 }
 
