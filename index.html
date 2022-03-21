@@ -22,8 +22,11 @@
   </head>
 
 <body>
+  <div id="tpbtn" class="scroll-to-section">
+    <a href="#top" class="top-button">ᐱ</a>
+  </div>
+  
 
- 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
       <div class="container">
@@ -38,9 +41,9 @@
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
                           <li class="scroll-to-section"><a href="#top" class="active">Accueil</a></li>
-                          <li><a href="meetings.html">Lieux</a></li>
-                          <li><a href="meetings.html">Activités</a></li>
-                          <li><a href="meetings.html">Agenda</a></li>
+                          <li><a href="lieux.html">Lieux</a></li>
+                          <li><a href="activites.html">Activités</a></li>
+                          <li><a href="agenda.html">Agenda</a></li>
                           <!--
                             <li><a href="meetings.html">Lieux</a></li>
                             <li class="scroll-to-section"><a href="#apply">A</a></li>
@@ -592,22 +595,34 @@
                   <div class="col-lg-4">
                     <fieldset>
                       <input name="name" type="text" id="name" placeholder="Votre nom...*" required="">
+                      <div class="invalid-feedback">
+                        Le champ "nom" semble vide... Avez-vous bien renseigné votre nom ?
+                      </div>
                     </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
                     <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="Votre adresse mail..." required="">
+                    <div class="invalid-feedback">
+                      Nous avons des soucis votre adresse mail. Est-elle correcte ?
+                    </div>
                   </fieldset>
                   </div>
                   <div class="col-lg-4">
                     <fieldset>
                       <input name="subject" type="text" id="subject" placeholder="Objet...*" required="">
+                      <div class="invalid-feedback">
+                        L'objet de votre demande est vide. Sur quoi porte votre message ?
+                      </div>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Votre message..." required=""></textarea>
-                    </fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="Votre message..." required="" minlength="1"></textarea>
+                      <div class="invalid-feedback">
+                        Votre message est vide, n'hésitez pas à vous exprimer !
+                      </div>
+                      </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
@@ -636,8 +651,10 @@
               </li>
               <li>
                 <h6>URL du site Internet</h6>
-                <span>https://louismdk.github.io/SiteNantes</span>
-              </li>
+                <span>
+                  <a href="https://louismdk.github.io/SiteNantes"
+                  style="word-break: break-all;">https://louismdk.github.io/SiteNantes</a></span>
+                </li>
             </ul>
           </div>
         </div>
