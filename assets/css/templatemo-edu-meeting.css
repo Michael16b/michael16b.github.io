@@ -1461,6 +1461,8 @@ section.contact-us .right-info {
   background-color: #035992;
   border-radius: 20px;
   padding: 40px;
+  height: 100%;
+  padding-top: 5em;
 }
 
 section.contact-us .right-info ul li {
