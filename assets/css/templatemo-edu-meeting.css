@@ -887,7 +887,7 @@ upcoming meetings
 */
 
 section.upcoming-meetings {
-  background-image: url(../images/nantes-spirale.jpg);
+  background-image: url(../images/nantes-spirale-blurr.jpg);
   opacity: 95%;
   background-position: center center;
   background-attachment: fixed;
@@ -1418,7 +1418,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #a12c2f;
+  background-color: #035992;
   border-radius: 20px;
   padding: 40px;
 }
