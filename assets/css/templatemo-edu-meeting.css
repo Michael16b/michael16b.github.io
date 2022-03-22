@@ -1049,7 +1049,7 @@ section.upcoming-meetings .categories .main-button-red a {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #a12c2f;
+  color: #2f6478;
 }
 
 .meeting-item .down-content .date span {
@@ -1534,7 +1534,8 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: linear-gradient(white, black), url(../images/nantes-spirale-blurr.jpg);
+  background-blend-mode: darken;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1586,7 +1587,7 @@ section.meetings-page .filters {
 
 section.meetings-page .filters li {
   font-size: 13px;
-  color: #a12c2f;
+  color: black;
   background-color: #fff;
   padding: 11px 30px;
   display: inline-block;
@@ -1600,7 +1601,7 @@ section.meetings-page .filters li {
 
 section.meetings-page .filters ul li.active,
 section.meetings-page .filters ul li:hover {
-  background-color: #a12c2f;
+  background-color: #2f6478;
   color: #fff;
 }
 
