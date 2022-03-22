@@ -1540,8 +1540,12 @@ section.heading-page {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 230px;
-  padding-bottom: 110px;
+  padding-bottom: 300px;
   text-align: center;
+}
+
+#entourloupe {
+  padding-bottom: 110px !important;
 }
 
 section.heading-page h6 {
@@ -1578,6 +1582,7 @@ section.meetings-page {
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 0px;
+  overflow-y : hidden;
 }
 
 section.meetings-page .filters {
