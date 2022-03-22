@@ -276,6 +276,13 @@
         });
     }
 
+	$(function() {
+		$('.invalid-feedback').attr("style", "opacity: 0;");
+	  });
+
+	  $( "input" ).click(function() {
+		$('.invalid-feedback').attr("style", "opacity: 1;");
+	  });
 
 	function visible(partial) {
         var $t = partial,
@@ -316,3 +323,4 @@
 
 
 })(window.jQuery);
+

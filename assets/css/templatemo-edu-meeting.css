@@ -1509,7 +1509,7 @@ section.contact-us .right-info ul li span {
 }
 
 input:valid + div {
-  display: none;
+  color: white;
 }
 input {
   margin-bottom: 50px;
@@ -1518,16 +1518,11 @@ input {
 .invalid-feedback {
   color: rgb(255, 66, 66);
   margin-bottom: 50px;
+  display: block;
 }
 
-input:invalid + div {
-  display: block;
-}
 section.contact-us #contact textarea:valid + div {
-  display: none;
-}
-section.contact-us #contact textarea:invalid + div {
-  display: block;
+  color: white;
 }
 
 
