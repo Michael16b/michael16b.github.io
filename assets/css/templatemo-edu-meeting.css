@@ -1016,6 +1016,25 @@ section.upcoming-meetings .categories .main-button-red a {
 	transform: scale(1.1);
 }
 
+.portfolio-item {
+  overflow: hidden;
+}
+
+.portfolio-item:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.portfolio-item img {
+	vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
 .meeting-item .thumb .price {
   position: absolute;
   left: 20px;
@@ -1319,7 +1338,7 @@ section.our-facts {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 section.our-facts h2 {
