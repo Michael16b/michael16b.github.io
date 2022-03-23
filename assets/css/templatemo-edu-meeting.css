@@ -1016,23 +1016,6 @@ section.upcoming-meetings .categories .main-button-red a {
 	transform: scale(1.1);
 }
 
-.portfolio-item {
-  overflow: hidden;
-}
-
-.portfolio-item:hover img {
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-
-.portfolio-item img {
-	vertical-align: top;
-	max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
 
 
 .meeting-item .thumb .price {
@@ -1943,6 +1926,8 @@ responsive
   width: 100%;
   height: auto;
 }
+
+
 .container-fluid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -1959,17 +1944,17 @@ responsive
 }
 
 
-.portfolio-item img {
+.item-portfolio img {
   width: 100%;
   overflow: hidden;
 }
 
-.portfolio-item .thumb {
+.item-portfolio .thumb {
   position: relative;
 }
 
 
-.portfolio-item .hover-effect .hover-content {
+.item-portfolio .hover-effect .hover-content {
     position: absolute;
     text-align: left;
     width: 100%;
@@ -1978,7 +1963,7 @@ responsive
 }
 
 
- .portfolio-item h1 {
+ .item-portfolio h1 {
   position: relative;
   font-size: 22px;
   text-transform: uppercase;
@@ -1991,16 +1976,16 @@ responsive
   letter-spacing: 0.5px;
  }
 
-  .portfolio-item em {
+  .item-portfolio em {
   font-style: normal;
   font-weight: 200;
  }
 
- .portfolio-item:hover h1 {
+ .item-portfolio:hover h1 {
   transform: translateY(0);
  }
 
- .portfolio-item p {
+ .item-portfolio p {
   padding-left: 20px;
   font-weight: 300!important;
   letter-spacing: 0.5px;
@@ -2012,14 +1997,32 @@ responsive
   text-transform: uppercase;
  }
 
-  .portfolio-item {
+  .item-portfolio {
  text-align: center;
  line-height: 150%;
  text-transform: lowercase;
  cursor: pointer;
 }
 
- .portfolio-item:hover p {
+ .item-portfolio:hover p {
   opacity: 1;
   transform: translateY(0);
  }
+
+ .item-portfolio {
+  overflow: hidden;
+}
+
+.item-portfolio:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.item-portfolio img {
+	vertical-align: top;
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
